@@ -36,6 +36,15 @@ Execute a atualização para a nova versão com o comando zypper dist-upgrade.
 sudo zypper ref
 sudo zypper dist-upgrade
 ```
+
+## Reativar Repositórios de Terceiros
+
+Depois de completar a atualização, reative os repositórios de terceiros, se necessário. Certifique-se de que esses repositórios sejam compatíveis com a nova versão do openSUSE Leap.
+
+```bash
+sudo zypper modifyrepo --all --enable   
+```
+
 ## Reiniciar o Sistema
 
 Reinicie o sistema para concluir a atualização e aplicar todas as mudanças.

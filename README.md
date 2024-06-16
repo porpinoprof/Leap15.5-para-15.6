@@ -29,14 +29,14 @@ sudo zypper ar -f https://download.opensuse.org/distribution/leap/15.6/repo/non-
 sudo zypper ar -f https://download.opensuse.org/update/leap/15.6/oss/ repo-update-oss-15.6
 sudo zypper ar -f https://download.opensuse.org/update/leap/15.6/non-oss/ repo-update-non-oss-15.6
 ```
-##Atualizar o Sistema para a Nova Versão
+## Atualizar o Sistema para a Nova Versão
 
 Execute a atualização para a nova versão com o comando zypper dist-upgrade.
 ```bash
 sudo zypper ref
 sudo zypper dist-upgrade
 ```
-##Reiniciar o Sistema
+## Reiniciar o Sistema
 
 Reinicie o sistema para concluir a atualização e aplicar todas as mudanças.
 ```bash
